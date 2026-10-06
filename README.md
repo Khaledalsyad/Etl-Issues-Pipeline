@@ -8,6 +8,16 @@ loads it into PostgreSQL.
 ## Project Overview
 
 This project demonstrates an end-to-end ETL workflow:
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?logo=postgresql)
+![GraphQL](https://img.shields.io/badge/API-GraphQL-e10098?logo=graphql)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-ORM-red)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458?logo=pandas)
+![Tests](https://img.shields.io/badge/Tests-unittest-green)
+
+</p>
 
 1.  Extract data from GitHub using GraphQL.
 2.  Handle cursor-based pagination.
