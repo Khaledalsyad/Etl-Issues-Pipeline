@@ -5,6 +5,24 @@ organization, repository, issue, label, user, and assignment data
 through the GitHub GraphQL API, transforms and validates the data, and
 loads it into PostgreSQL.
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Architecture](#architecture)
+- [Key Engineering Features](#key-engineering-features)
+- [Data Flow](#data-flow)
+- [Data Model](#data-model)
+- [Project Structure](#project-structure)
+- [Transaction Management](#transaction-management)
+- [Incremental Processing](#incremental-processing)
+- [Idempotent Loading](#idempotent-loading)
+- [Validation](#validation)
+- [Testing](#testing)
+- [Installation](#installation)
+- [Running the Pipeline](#running-the-pipeline)
+- [Technology Stack](#technology-stack)
+- [Engineering Concepts](#engineering-concepts)
+
 ## Project Overview
 
 This project demonstrates an end-to-end ETL workflow:
@@ -91,24 +109,6 @@ Validated DataFrames
       v
 PostgreSQL
 ```
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Architecture](#architecture)
-- [Key Engineering Features](#key-engineering-features)
-- [Data Flow](#data-flow)
-- [Data Model](#data-model)
-- [Project Structure](#project-structure)
-- [Transaction Management](#transaction-management)
-- [Incremental Processing](#incremental-processing)
-- [Idempotent Loading](#idempotent-loading)
-- [Validation](#validation)
-- [Testing](#testing)
-- [Installation](#installation)
-- [Running the Pipeline](#running-the-pipeline)
-- [Technology Stack](#technology-stack)
-- [Engineering Concepts](#engineering-concepts)
-  
 
 ## Main Responsibilities
 
