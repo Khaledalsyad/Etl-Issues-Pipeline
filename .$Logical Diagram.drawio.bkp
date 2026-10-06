@@ -1,0 +1,97 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="ure7RUmvYF5tKwlj-zMp">
+    <mxGraphModel dx="860" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Organaization" vertex="1">
+          <mxGeometry height="340" width="150" x="70" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-5" parent="JxzL0YUcEPvZYxulKD-F-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;Githun_Organiz_ID&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="115" x="19.5" y="34" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-6" parent="JxzL0YUcEPvZYxulKD-F-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Login" vertex="1">
+          <mxGeometry height="50" width="115" x="19.5" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-7" parent="JxzL0YUcEPvZYxulKD-F-1" style="rounded=0;whiteSpace=wrap;html=1;" value="DisplayName" vertex="1">
+          <mxGeometry height="50" width="115" x="19.5" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-8" parent="JxzL0YUcEPvZYxulKD-F-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Describtion" vertex="1">
+          <mxGeometry height="50" width="115" x="19" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-9" parent="JxzL0YUcEPvZYxulKD-F-1" style="rounded=0;whiteSpace=wrap;html=1;" value="URL" vertex="1">
+          <mxGeometry height="50" width="115" x="18.5" y="277" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Repositories" vertex="1">
+          <mxGeometry height="340" width="150" x="240" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-11" parent="JxzL0YUcEPvZYxulKD-F-2" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;Githun_Reposit_ID&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="115" x="18" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-12" parent="JxzL0YUcEPvZYxulKD-F-2" style="rounded=0;whiteSpace=wrap;html=1;" value="Login" vertex="1">
+          <mxGeometry height="50" width="115" x="18" y="91" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-13" parent="JxzL0YUcEPvZYxulKD-F-2" style="rounded=0;whiteSpace=wrap;html=1;" value="DisplayName" vertex="1">
+          <mxGeometry height="50" width="115" x="18" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-14" parent="JxzL0YUcEPvZYxulKD-F-2" style="rounded=0;whiteSpace=wrap;html=1;" value="Describtion" vertex="1">
+          <mxGeometry height="50" width="115" x="17.5" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-15" parent="JxzL0YUcEPvZYxulKD-F-2" style="rounded=0;whiteSpace=wrap;html=1;" value="URL" vertex="1">
+          <mxGeometry height="50" width="115" x="17" y="273" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Issues" vertex="1">
+          <mxGeometry height="400" width="150" x="730" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-16" parent="JxzL0YUcEPvZYxulKD-F-3" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;Issue_Numper_ID&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="115" x="18" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-17" parent="JxzL0YUcEPvZYxulKD-F-3" style="rounded=0;whiteSpace=wrap;html=1;" value="Title" vertex="1">
+          <mxGeometry height="50" width="115" x="18" y="91" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-18" parent="JxzL0YUcEPvZYxulKD-F-3" style="rounded=0;whiteSpace=wrap;html=1;" value="State" vertex="1">
+          <mxGeometry height="50" width="115" x="18" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-19" parent="JxzL0YUcEPvZYxulKD-F-3" style="rounded=0;whiteSpace=wrap;html=1;" value="Created_Date" vertex="1">
+          <mxGeometry height="50" width="115" x="17.5" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-20" parent="JxzL0YUcEPvZYxulKD-F-3" style="rounded=0;whiteSpace=wrap;html=1;" value="Closed_Date" vertex="1">
+          <mxGeometry height="50" width="115" x="17" y="273" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-21" parent="JxzL0YUcEPvZYxulKD-F-3" style="rounded=0;whiteSpace=wrap;html=1;" value="Updated_Date" vertex="1">
+          <mxGeometry height="50" width="115" x="18" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-4" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Users" vertex="1">
+          <mxGeometry height="270" width="180" x="140" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-23" parent="JxzL0YUcEPvZYxulKD-F-4" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;Githun_Users_ID&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="115" x="32.75" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-24" parent="JxzL0YUcEPvZYxulKD-F-4" style="rounded=0;whiteSpace=wrap;html=1;" value="Login" vertex="1">
+          <mxGeometry height="50" width="115" x="32.75" y="91" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-25" parent="JxzL0YUcEPvZYxulKD-F-4" style="rounded=0;whiteSpace=wrap;html=1;" value="UserName" vertex="1">
+          <mxGeometry height="50" width="115" x="32.75" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-26" parent="JxzL0YUcEPvZYxulKD-F-4" style="rounded=0;whiteSpace=wrap;html=1;" value="Avatar_URL" vertex="1">
+          <mxGeometry height="50" width="115" x="32.25" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-27" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Labels" vertex="1">
+          <mxGeometry height="270" width="180" x="410" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-28" parent="JxzL0YUcEPvZYxulKD-F-27" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;Githun_Label_ID&lt;/u&gt;" vertex="1">
+          <mxGeometry height="50" width="115" x="32.75" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-29" parent="JxzL0YUcEPvZYxulKD-F-27" style="rounded=0;whiteSpace=wrap;html=1;" value="Name" vertex="1">
+          <mxGeometry height="50" width="115" x="32.75" y="91" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-30" parent="JxzL0YUcEPvZYxulKD-F-27" style="rounded=0;whiteSpace=wrap;html=1;" value="Color" vertex="1">
+          <mxGeometry height="50" width="115" x="32.75" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="JxzL0YUcEPvZYxulKD-F-31" parent="JxzL0YUcEPvZYxulKD-F-27" style="rounded=0;whiteSpace=wrap;html=1;" value="Discription" vertex="1">
+          <mxGeometry height="50" width="115" x="32.25" y="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

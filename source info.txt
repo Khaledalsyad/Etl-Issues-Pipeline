@@ -1,0 +1,8 @@
+في الشركات، بيانات الـ Issues تُستخدم في:
+
+Engineering Analytics
+Team Productivity Dashboards
+SLA Tracking
+Lead Time Analysis
+Bug Analysis
+Release Management

@@ -1,0 +1,33 @@
+extract layer =====>
+1- purpes==> انا عايز اجيب الداتا فى المصدر فىى rowdata مناسب لل trnsaform 
+2- input = githubcleint(github api, github token)
+3- output = row data(json row)
+4- Roles[
+1- هل ال api رجعت error 
+2- response هل رجع داتا ؟
+3- هل ال pagination فيها صفحات تانيه 
+4- ماذا لو حصل network error  
+]
+                 EXTRACT
+                    │
+        ┌───────────┴───────────┐
+        │                       │
+      INPUT                   OUTPUT
+        │                       │
+GitHubGraphQLClient          raw_data
+        │                       │
+ API URL + Token             Raw JSON
+        │                       │
+        └───────────┬───────────┘
+                    ↓
+                Transform
+
+
+
+		  (DESIGN)
+1- FUNCTION=> مسؤله عن ال pagination اسمها def pageinate
+2- الكود بتاع اتاكد اذا كا البينات الي رجعت دي البينات الى ان محتاجها ولا لأ
+for key in data_path:
+    if key not in section:
+        raise RuntimeError(...)
+    section = section[key]   

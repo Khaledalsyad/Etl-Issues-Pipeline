@@ -1,0 +1,1 @@
+-- Foreign keys are declared in aschema.sql so a fresh installation is atomic.
